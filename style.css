@@ -1,0 +1,67 @@
+.container-fluid{
+    display: flex;
+    height: 100vh;
+}
+
+.image{
+    height: 900px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    object-fit: cover;
+    margin-top: 160px;
+    margin-left: 100px;
+}
+
+.people{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    filter: brightness(50%);
+
+}
+
+.logo{
+    position: absolute;
+    top: 240px;
+    left: 120px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+
+.form{
+    height: 40vw;
+    width: 60vw;
+}
+
+.container .tombol{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
+.form{
+    position: relative;
+    width: 80%;
+    height: 20vw;
+    left: 200px;
+    top:150px
+}
+
+.form-wrapper{
+    margin-left: -50px;
+}
+
+@media only screen and (max-width: 840px){
+    .image{
+        display: none;
+    }
+
+    #former{
+        margin-left: -250px;
+    }
+}

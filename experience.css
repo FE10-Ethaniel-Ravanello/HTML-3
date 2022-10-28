@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carder{
+    margin: 0;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bg-custom{
+    background-color: darkblue;
+}
+
+.m-custom{
+    margin-left: 10px;
+}
+
+.buat-ini{
+    width:200px;
+    justify-content: space-between;
+}
+
+span{
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 840px){
+    .turunin{
+        display: block;
+    }
+}
